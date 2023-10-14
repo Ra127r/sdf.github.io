@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button{
+            width: 100px;
+            height: 100px;
+            border: 0;
+            border-radius: 5px;
+            background: #4676D7;
+            color: #fff;
+            padding: 8px 16px;
+            color:cyan;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100px;
+            
+            margin-top: 100px;
+            text-align: center;
+            display: block;
+            margin: auto;
+            position: relative;
+            top: 100px;
+            
+        }
+        p{
+            position: relative;
+            left: 60px;
+            font-size: 100px;
+            color: black;
+
+        }
+        img{
+            height: 250px;
+            display: block;
+            margin: auto;
+            position: relative;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Самый лучший сайт</title>
+</head>
+<body>
+    
+    <p>Нажми на кнопку</p>
+    <img src="pngwing.com (15).png" alt="Внизу">
+    <button onclick="openSite()">Press</button>
+    <script>
+        function openSite(){
+            window.open("https://www.google.com");
+            
+            var audio=document.createElement("audio");
+            audio.src="09037.mp3";
+            audio.play();
+            document.body.appendChild(audio);
+        }
+    </script>
+</body>
+</html>
